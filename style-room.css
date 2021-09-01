@@ -1,0 +1,267 @@
+    a{text-decoration: none;}
+    a:link{color:black;}
+    a:visited{color:black;}
+
+    body {
+      font-family: 'Lato', sans-serif;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    html, body{height:100%;}
+
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .overlay a:visited{
+      color:#818181;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+    span{
+      float: right;
+    }
+
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+
+
+      ul,li{list-style:none;}
+
+      #T{
+      font-size:25px;
+      border-bottom: thick double #000000;
+      margin:0;
+      padding:15px;
+      height: 60px;
+      margin-left:0;
+      width:inherit;
+      }
+
+      h1{
+        background-repeat: no-repeat; background-position: center;
+        width:350px; margin:0; height:80px; float:left;
+      }
+
+/*common*/
+.wrapper{width:1200px; margin:auto;}
+/*header*/
+header{
+  top:0;
+}
+
+    h2{text-align: center;
+    padding-top: 130px }
+    .search{
+      text-align: center;
+    }
+    #search {
+      border: 5px solid black;
+      border-radius: 4px;
+      width: 600px; height: 60px;
+      font-size: 20px;
+      font-style: normal;
+    }
+    #go{
+      border: 5px solid black;
+      border-radius: 4px;
+      width: 62px; height: 62px;
+      background-color: gray;
+    }
+
+    #mainsearch{
+      border: none;
+    }
+
+    /*log-in page*/
+    /* Bordered form */
+  form {
+  border: 3px solid #f1f1f1;
+  }
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+
+  /* Set a style for all buttons */
+  button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+
+  /* Add a hover effect for buttons */
+  button:hover {
+  opacity: 0.8;
+  }
+
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  }
+  .signupbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  }
+
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  width: 100%;
+  height: 100%;
+
+  }
+
+  /* Avatar image */
+  img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  }
+
+  /* Add padding to containers */
+  .container {
+  padding: 16px;
+  width: 450px;
+  margin: 0 auto;
+
+  }
+
+  /* The "Forgot password" text */
+  span.psw {
+  float: right;
+  padding-top: 16px;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  .signupbtn {
+    width: 100%;
+  }
+  }
+    .home{
+      font-size: 50px;
+      font-family: sans-serif;
+      text-align:center;
+      margin-top:80px;
+      padding-bottom: 8px;
+      font-weight:bolder;
+      border-bottom: thick double #000000;
+    }
+    a:visited{
+      color:black;
+    }
+
+    .mylistmenu{
+      font-size: 20px;
+      border-bottom:3px solid black;
+      float: left;
+      font-family: sans-serif;
+      width:100%;
+      height:100%;
+      margin-top: 10px;
+      margin-bottom: 200px;
+      font-weight:  bolder;
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+          width: 150px;
+          margin-top: 20px;
+          z-index: 1;
+          top: 20px;
+          left: 10px;
+          background: #eee;
+          overflow-x: hidden;
+          padding: 8px 0;
+            }
+
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      font-family: sans-serif;
+      font-weight: bolder;
+      font-size: 25px;
+      color: #000000;
+      display: block;
+    }
+
+    .sidenav a:hover {
+      color: #818181;
+    }
+
+    .main {
+      margin-left: 160px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }

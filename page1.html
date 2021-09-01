@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sweet Home</title>
+    <link rel="stylesheet" href="style-room.css">
+    <script src="D:\web\원룸후기\js.js" defer></script>
+  </head>
+  <body>
+    <header>
+    <div class="wrapper" id="T">
+    <h1><a href="file:///D:/web/%EC%9B%90%EB%A3%B8%ED%9B%84%EA%B8%B0/page1.html">
+      <img src="D:\web\원룸후기\집.jpg" width="40px">Sweet Home</a></h1>
+
+      <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="D:\web\원룸후기\log-in.html">Log-in</a>
+        <a href="D:\web\원룸후기\My list.html">My list</a>
+        <a href="D:\web\원룸후기\커뮤니티.html">Community</a>
+        <a href="#">Setting</a>
+        </div>
+      </div>
+
+      <span style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    </div>
+    </header>
+  </body>
+  <body>
+    <h2>원룸 후기 검색</h2>
+
+    <form class="search" id="mainsearch">
+      <input class="keyword" type="text" name="search" maxlength=255
+      placeholder="도로명 주소를 입력하세요" autocomplete="off" id="search">
+      <button class="img-button" type = "submit" name="click" id="go">
+        <i class="fas fa-search"><i>
+          GO
+      </button>
+    </form>
+  </body>
+</html>
